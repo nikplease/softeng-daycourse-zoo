@@ -1,14 +1,14 @@
-# kangaroo.py
+# penguin.py
 
 from .animal import Animal
 
 
-class Kangaroo(Animal):
-    def __init__(self, name="Roo"):
-        super().__init__(name, species="Kangaroo")
+class Penguin(Animal):
+    def __init__(self, name="stumpy"):
+        super().__init__(name, species="Penguin")
 
     def sound(self):
-        return "thumps"
+        return "fish"
 
     def action(self):
-        return "hops around happily."
+        return "nom nom"
